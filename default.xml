@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch=".."
+  <remote name="aosp"
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+
   <default revision="refs/tags/android-12.1.0_r7"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4"
+           sync-c="true"
+           sync-f="true" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r7" />
   <contactinfo bugurl="go/repo-bug" />
@@ -1103,6 +1112,11 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
-  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+  <!-- Remove replaced AOSP repos -->
+  <include name="snippets/remove.xml" />
+
+  <!-- Add all VoidUI repos -->
+  <include name="snippets/voidui.xml" />
+  <include name="snippets/voidui-caf.xml" />
 
 </manifest>
