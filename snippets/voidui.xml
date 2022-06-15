@@ -132,7 +132,6 @@
   <project path="packages/apps/RepainterService" name="packages_apps_RepainterService" remote="voidui" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="voidui" />
   <!--project path="packages/apps/Snap" name="packages_apps_Snap" remote="voidui" /-->
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="voidui" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="voidui" />
   <project path="packages/overlays/ThemeIcons" name="packages_overlays_ThemeIcons" remote="voidui" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="voidui" />
@@ -180,6 +179,10 @@
   <!-- System Repos Extras -->
   <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="voidui" />
 
+  <!-- Our Updater fork -->
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="voidui" />
+  <project path="vendor/officialdevices" name="official_devices" remote="VoidUI-Devices" />
+   
   <!-- Tools Repos Extras -->
   <project path="tools/extract-utils" name="tools_extract-utils" remote="voidui" />
 
