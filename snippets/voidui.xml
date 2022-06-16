@@ -20,9 +20,9 @@
           revision="twelve"
           review="gerrit.pixelexperience.org" />
 
-  <remote name="pixel-gitlab"
-          fetch="https://gitlab.com/PixelExperience/twelve"
-          revision="twelve" />
+  <remote name="voidui-gitlab"
+          fetch="https://gitlab.com/VoidUI"
+          revision="aosp-12.1" />
 
   <remote name="pixel-gitlab-self-hosted"
           fetch="https://gitlab.pixelexperience.org/android"
@@ -77,7 +77,7 @@
   
   <!-- General repos Exrtas -->
   <project path="vendor/aosp" name="vendor_aosp" remote="voidui" />
-  <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="voidui-gitlab" clone-depth="1" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="voidui" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="voidui" />
 
