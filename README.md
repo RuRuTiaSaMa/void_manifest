@@ -28,3 +28,10 @@ $ lunch aosp_$device-userdebug
 # Build the code
 $ mka bacon -jX
 ```
+
+# Telegram Support Groups
+* [**Telegram Support Group**](https://t.me/VoidUI)
+ * [**VoidUI Alioth/In Group**](https://t.me/VoidUI_Alioth)
+ * [**Russian Speaking Alioth/In**](https://t.me/VoidUI_Alioth_RU)
+ * [**VoidUI Apollo/n Group**](https://t.me/VoidUI_Apollo)
+ * More Devices, Features and Groups Sooon
