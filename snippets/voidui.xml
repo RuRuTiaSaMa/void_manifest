@@ -45,6 +45,10 @@
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="voidui" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="voidui" />
   <project path="external/tinyxml" name="external_tinyxml" remote="voidui" />
+  
+  <!-- External repos - Monet Topic -->
+  <project path="external/colorkt" name="external_colorkt" remote="voidui" />
+  <project path="external/themelib" name="external_themelib" remote="voidui" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="voidui" />
