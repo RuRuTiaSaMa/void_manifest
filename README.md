@@ -2,7 +2,7 @@
 # Early Development #
 # // FPush Warning // #
 
-![void_Frame2](https://user-images.githubusercontent.com/34755141/173379206-ea461b24-321e-4186-b3d4-2bfbae6872d4.jpg)
+![Picsart_22-06-16_04-16-29-275](https://user-images.githubusercontent.com/34755141/174213996-2a08b196-2fd0-49af-8f17-3fe5f7cd2bd7.png)
 
 ### Sync ###
 
