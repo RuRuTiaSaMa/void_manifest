@@ -111,6 +111,7 @@
   <project path="hardware/qcom/sm8150/media" name="hardware_qcom_sm8150_media" remote="voidui" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="voidui" />
   <project path="hardware/ril" name="hardware_ril" remote="voidui" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="voidui" />
   
   <!-- Hardware repos Extras -->
   <project path="hardware/broadcom/nfc" name="hardware_broadcom_nfc" remote="voidui" />
