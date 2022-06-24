@@ -1,6 +1,4 @@
-# VoidUI Eternity Project #
-# Early Development #
-# // FPush Warning // #
+# VoidUI Eternity Project - Android 12.1.0
 
 ![Picsart_22-06-16_04-16-29-275](https://user-images.githubusercontent.com/34755141/174213996-2a08b196-2fd0-49af-8f17-3fe5f7cd2bd7.png)
 
