@@ -28,6 +28,10 @@
           fetch="https://gitlab.pixelexperience.org/android"
           revision="twelve" />
 
+  <remote name="ru"
+          fetch="https://github.com/RuRuTiaSaMa"
+          revision="aosp-12.1" />
+
   <!-- External repos -->
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="voidui" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="voidui" />
@@ -53,7 +57,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="voidui" />
-  <project path="frameworks/base" name="frameworks_base" remote="voidui" />
+  <project path="frameworks/base" name="frameworks_base" remote="ru" />
   <project path="frameworks/native" name="frameworks_native" remote="voidui" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="voidui" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="voidui" />
@@ -123,7 +127,7 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="voidui" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="voidui" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="voidui" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="voidui" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ru" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="voidui" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="voidui" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="voidui" />
